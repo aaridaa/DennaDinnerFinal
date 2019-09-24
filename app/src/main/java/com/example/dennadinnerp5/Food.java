@@ -23,6 +23,16 @@ public class Food {
                     7.50, R.drawable.waffles)
     };
 
+    public static final Food[] lunchFoods = {
+            new Food("Soup", "tomatoes, pepper, carrots",
+                    8.99, R.drawable.soup),
+            new Food("Sandwich", "bread, choice of meat, cheese",
+                    7.95, R.drawable.sandwich),
+            new Food("Salad", "lettuce, choice of dressing, croutons",
+                    7.50, R.drawable.salad)
+    };
+
+
     public String toString() {
         return foodName;
     }
